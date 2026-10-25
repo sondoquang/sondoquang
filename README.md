@@ -54,6 +54,35 @@
   <img src="https://skillicons.dev/icons?i=docker,nginx,linux,git,github,vercel,cloudflare&perline=10" alt="DevOps" />
 </p>
 
+**AI-assisted engineering**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/OpenAI_Codex-000000?style=for-the-badge" alt="OpenAI Codex" />
+  <img src="https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/MCP-1A1A1A?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol" />
+  <img src="https://img.shields.io/badge/Agent_Skills-4B32C3?style=for-the-badge" alt="Agent Skills" />
+</p>
+
+I build with coding agents every day, using a spec-driven workflow rather than vibe coding:
+
+- 🧭 **Workflow:** [mattpocock/skills](https://github.com/mattpocock/skills) on Claude Code and Codex. Align with `/grill-with-docs`, write a spec with `/to-spec`, split it into GitHub Issues with `/to-tickets`, then build with `/implement` + `/tdd` (red-green-refactor). After that: `/diagnosing-bugs`, `/code-review` and `/improve-codebase-architecture`.
+- 📚 **Context engineering:** projects ship `CLAUDE.md` / `AGENTS.md` agent rules, a `GLOSSARY.md` shared domain language and ADRs in `docs/adr`, so agents and humans use the same terms and decisions.
+- 🎫 **Issue-driven agents:** GitHub Issues through the `gh` CLI, with triage labels (`needs-triage`, `ready-for-agent`, `ready-for-human`) that decide what an agent picks up and what needs a human.
+- 🧩 **Domain skills:** per-project skills pinned in `skills-lock.json`, e.g. Anthropic `frontend-design`, Emil Kowalski animation/design skills, NestJS, Django REST Framework and WordPress skills.
+- ✅ **Feedback loops:** static types, automated tests (pytest, Jest, Playwright) and browser checks, so agents verify their own work before review.
+
+```mermaid
+flowchart LR
+    A["Idea"] --> B["/grill-with-docs<br/>GLOSSARY + ADR"]
+    B --> C["/to-spec"]
+    C --> D["/to-tickets<br/>GitHub Issues"]
+    D --> E["/implement + /tdd"]
+    E --> F["/code-review"]
+    F --> G["Pull request"]
+```
+
 **Currently learning**
 
 <p>

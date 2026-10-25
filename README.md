@@ -93,12 +93,12 @@ flowchart LR
 
 | Project | Description | Stack |
 | --- | --- | --- |
-| [**solar-hub**](https://github.com/sondoquang/solar-hub) | Centralized admin hub that aggregates multiple WooCommerce stores: order sync, product CRUD, site monitoring | Django REST · Celery · Redis · PostgreSQL · React · Docker |
-| [**excel-validator**](https://github.com/sondoquang/excel-validator) | Excel validation, duplicate detection and data transformation app | Django REST · Celery · PostgreSQL · React · Docker · Nginx |
+| [**solar-hub-fullstack**](https://github.com/sondoquang/solar-hub-fullstack) | Centralized admin hub that aggregates multiple WooCommerce stores: order sync, product CRUD, site monitoring | Django REST · Celery · Redis · PostgreSQL · React · Docker |
+| [**excel-validator-fullstack**](https://github.com/sondoquang/excel-validator-fullstack) | Excel validation, duplicate detection and data transformation app | Django REST · Celery · PostgreSQL · React · Docker · Nginx |
 | [**postgres-replication-lab**](https://github.com/sondoquang/postgres-replication-lab) | Hands-on lab for PostgreSQL primary/standby streaming replication | PostgreSQL · Docker Compose · Shell |
-| [**java-spring-mvc**](https://github.com/sondoquang/java-spring-mvc) | Laptop shop web app with authentication and session management | Spring Boot · Spring MVC · Spring Security · JPA · MySQL |
-| [**store-spring-boot**](https://github.com/sondoquang/store-spring-boot) + [**store-book-react**](https://github.com/sondoquang/store-book-react) | Bookstore: REST API with JWT auth and Swagger docs, plus an admin/client SPA | Spring Boot · Spring Security · JWT · SQL Server · React · Redux Toolkit · Ant Design |
-| [**dev-personal-portfolio**](https://github.com/sondoquang/dev-personal-portfolio) | Personal portfolio site, [live demo](https://sondoitportfolio.vercel.app) | React · Vite · Tailwind CSS · Vercel |
+| [**laptopshop-web**](https://github.com/sondoquang/laptopshop-web) | Laptop shop web app with authentication and session management | Spring Boot · Spring MVC · Spring Security · JPA · MySQL |
+| [**bookstore-backend**](https://github.com/sondoquang/bookstore-backend) + [**bookstore-frontend**](https://github.com/sondoquang/bookstore-frontend) | Bookstore: REST API with JWT auth and Swagger docs, plus an admin/client SPA | Spring Boot · Spring Security · JWT · SQL Server · React · Redux Toolkit · Ant Design |
+| [**sondoit-portfolio-web**](https://github.com/sondoquang/sondoit-portfolio-web) | Personal portfolio site, [live demo](https://sondoitportfolio.vercel.app) | React · Vite · Tailwind CSS · Vercel |
 
 ## 📊 GitHub stats
 
